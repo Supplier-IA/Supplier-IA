@@ -23,7 +23,6 @@ function createMessage(text, sender) {
 
   const bubble = document.createElement("div");
   bubble.classList.add("message", sender);
-  // ✅ Troque textContent por innerHTML:
   bubble.innerHTML = text;
 
   container.appendChild(img);
@@ -164,3 +163,4 @@ function handleSelection(option, context) {
 
 
 startChat();
+
